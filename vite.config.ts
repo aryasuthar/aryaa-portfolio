@@ -20,3 +20,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+export default defineConfig({
+  base: '/aryaa-portfolio/', // 👈 IMPORTANT: match your repo name
+  plugins: [react()],
+})
